@@ -1,0 +1,148 @@
+/* Universal Selector */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+/* ------------------------------------------------------ */
+/* Naviagtion rules */
+header {
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    background-color: black;
+    height: 87px;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list .list-items {
+    display: inline-block;
+    padding: 31px 30px;
+}
+
+#navbar-logo {
+    display: inline-block;
+    padding: 31px 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    color: rgb(115, 213, 115);
+    text-decoration: none;
+}
+/* ------------------------------------------------------------------------------- */
+/* ----------------Top container rules -----------------------------------*/
+.top-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-box {
+width: 700px;
+height: 560px;
+padding: 30px;
+/* background-color: green; */
+}
+
+.left-box h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+}
+
+p.padding {
+    padding: 20px 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.right-box {
+    /* background-color: rgb(42, 8, 135); */
+   
+    height: 800px;
+    width: 700px;
+    padding: 19px;
+}
+
+.right-box img {
+    border: 2px solid black;
+    height: 710px;
+    width: 609px;
+    
+}
+/*-------------------- Button rules-------------------------- */
+.learn-button {
+    width: 226px;
+    height: 58px;
+    font-weight: 400;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.learn-button:hover {
+    background-color: rgb(55, 53, 53);
+    color: yellow;
+}
+
+.learn-button:visited {
+    background-color: rgb(55, 53, 53);
+    color: rgb(0, 255, 8);
+}
+
+.learn-button:active {
+    color: red;
+}
+
+/* ------------------------------------bottom part css ---------------------- */
+
+.bottom-container{
+    /* position: absolute; */
+    /* width: 600px;
+    height: 94px;
+    left: 50px;
+    top: 1154px; */
+    margin: 50px;
+    padding: 50px , 0;
+    }
+.bottom-heading {
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.box-images-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+    /* padding-left: 7px; */
+}
+
+.box img{
+    border: 2px solid black;
+    margin-bottom: 60px;
+     padding: 7px; 
+     height: 300px;
+     width: 300px;
+     border-radius: 10px;
+}
